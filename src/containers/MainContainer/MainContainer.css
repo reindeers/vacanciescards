@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+.main-container {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}
+.list {
+    flex-grow: 1;
+    padding: 0 10px;
+    overflow-y: scroll;
+    height: 100vh;
+}

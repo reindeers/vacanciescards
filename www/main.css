@@ -1,0 +1,45 @@
+.card-vacancy:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.card-vacancy {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    padding: 16px;
+}
+
+section {
+  display: flex;
+}
+
+.card-vacancy__date {
+  flex-grow: 1;
+  border-right: black 1px solid;
+}
+.card-vacancy__place {
+  flex-grow: 10;
+  padding: 50px;
+}
+.card-vacancy__from-place {
+  font-size: 24px;
+  border-bottom: black 1px solid;
+}
+.card-vacancy__to-place {
+  font-size: 24px;
+}
+body {
+  margin: 0;
+}
+.main-container {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}
+.list {
+    flex-grow: 1;
+    padding: 0 10px;
+    overflow-y: scroll;
+    height: 100vh;
+}

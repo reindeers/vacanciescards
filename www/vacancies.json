@@ -1,0 +1,11 @@
+[{
+  "id": 1,
+  "title": "Scala Developer @ Acme",
+  "assignees": [3],
+  "description": "5+ expirience"
+}, {
+  "id": 2,
+  "title": "Android Developer @ Green Robot Studio",
+  "assignees": [1, 2],
+  "description": "Knows how to code on Java"
+}]
